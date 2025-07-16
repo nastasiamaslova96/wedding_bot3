@@ -1,0 +1,1 @@
+worker: python bot_ready_aiogram3_fixed.py
