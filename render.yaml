@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: wedding-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot_ready_aiogram3_fixed.py
+    pythonVersion: 3.11.9
